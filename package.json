@@ -1,0 +1,21 @@
+{
+  "name": "cloud-vision-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node meisiDetection.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "^3.2.1",
+    "@google-cloud/vision": "^1.1.1",
+    "fs": "0.0.1-security",
+    "natural": "^0.6.3",
+    "path": "^0.12.7",
+    "redis": "^2.8.0",
+    "util": "^0.12.0"
+  }
+}
